@@ -1,0 +1,6 @@
+web:
+  image: httpd
+  volumes:
+   - ./static:/usr/local/apache2/htdocs
+  ports:
+   - "80:80"
